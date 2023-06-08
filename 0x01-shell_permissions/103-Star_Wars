@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Star Wars opening crawl text
+read -r -d '' CRAWL_TEXT << EOM
+A long time ago in a galaxy far, far away...
+
+          STAR WARS IV: A NEW HOPE
+
+It is a period of civil war.

@@ -1,4 +1,2 @@
 #!/bin/bash
-tempfile=$(mktemp)
-echo $tempfile
-
+pwd

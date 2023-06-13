@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name '*.gif' | sed 's/\.gif$//' | sort -f
+shopt -s globstar; for file in **/*.gif; do [ -f "$file" ] && echo "${file%.gif}"; done | sort -f
